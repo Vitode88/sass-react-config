@@ -1,0 +1,23 @@
+// TYPOGRAPHY
+$heading1: 40px;
+$heading2: 32px;
+$heading3: 27px;
+$heading4: 19px;
+$bold-l: 19px;
+$bold-m: 16px;
+$bold-s: 13px;
+
+// COLOURS
+$primary: #ea5d1a;
+$black: #353c43;
+$white: #ffffff;
+$warm-grey: #dedad4;
+$medium-grey: #eeece9;
+
+// MIXINS
+@mixin primary-box() {
+  background: $warm-grey;
+  box-shadow: 0 0 15px rgba($primary, 0.9);
+  padding: 8px;
+  color: #fff;
+}

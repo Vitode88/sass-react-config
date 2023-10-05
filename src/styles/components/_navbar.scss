@@ -1,0 +1,11 @@
+.navbar-container {
+  @include primary-box;
+  p {
+    color: royalblue;
+
+    &:hover {
+      color: black;
+      cursor: pointer;
+    }
+  }
+}
